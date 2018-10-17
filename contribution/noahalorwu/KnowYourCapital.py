@@ -9,7 +9,6 @@ while True:
 		countryName=input("Enter name of country: ")
 		#Terminate the program
 		if countryName.lower()=='stop':
-			print("Terminate")
 			break
 		elif capital(countryName)==False:
 			print("The country '{0}' you provided is not valid or not included in our list of countries!".format(countryName))
